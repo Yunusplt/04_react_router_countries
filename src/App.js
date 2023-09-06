@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Footer from "./components/footer/Footer";
+import Details from "./pages/details/Details";
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route exact path="/" element=<Home/>/>
         <Route path="/about" element=<About/>/>
+        <Route path="/detail/:namee" element=<Details/>/>
       </Routes>
       <Footer/>
     </BrowserRouter>

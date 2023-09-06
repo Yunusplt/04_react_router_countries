@@ -1,14 +1,16 @@
 import React from 'react'
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
+import { useNavigate } from 'react-router-dom';
 
 const CardCountry = ({country}) => {
-  console.log(country);
+  const myNavigate = useNavigate()
   return (
     <Card
       className="btn"
       role="button"
       style={{ height: "280px", maxWidth: "350px" }}
+      onClick={()=>myNavigate(`/detail/${country.name.common}`)}
     >
       <Card.Img
         variant="top"
