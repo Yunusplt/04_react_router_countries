@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# How it looks
+- ![Uygulama Ekran Görüntüsü](./countries.gif)
+
+## What I used
+- React-router-dom
+- React-bootstrap
+- bootstrap
+- RestApi Countries
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
